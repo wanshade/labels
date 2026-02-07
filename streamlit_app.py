@@ -217,6 +217,7 @@ def parse_uploaded_files(uploaded_files):
     
     for uploaded_file in sorted(uploaded_files, key=lambda x: x.name):
         name = os.path.splitext(uploaded_file.name)[0]
+        uploaded_file.seek(0)  # Reset file pointer before reading
         img_data = uploaded_file.read()
         
         # Check for _x# suffix for quantity (e.g., SGH.KSB.B1.03001_x4)
