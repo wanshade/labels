@@ -238,7 +238,7 @@ def main():
     st.markdown("""
     <div class="main-header">
         <h1>🏷️ Health Label DXF Generator</h1>
-        <p>Generate professional DXF label files with QR codes</p>
+        <p>Generate DXF label files with QR codes</p>
     </div>
     """, unsafe_allow_html=True)
     
