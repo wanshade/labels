@@ -255,7 +255,7 @@ def main():
         label_height = st.number_input("Label Height (mm)", value=20.0, min_value=10.0, step=1.0)
         
         st.subheader("📱 QR Code Settings")
-        qr_size = st.number_input("QR Size (mm)", value=10.0, min_value=5.0, step=0.5)
+        qr_size = st.number_input("QR Size (mm)", value=11.5, min_value=5.0, step=0.5)
         qr_x_offset = st.number_input("QR X Offset (mm)", value=49.0, step=1.0)
         qr_y_offset = st.number_input("QR Y Offset (mm)", value=3.0, step=0.5)
         
