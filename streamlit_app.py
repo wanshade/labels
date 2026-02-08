@@ -75,7 +75,7 @@ DEFAULT_CONFIG = {
     "org_name": "HEALTH", "subtitle1": "South Eastern Sydney", "subtitle2": "Local Health District",
     "footer_text": "DO NOT REMOVE ASSET - CONTACT TAM",
     "text_color": 5, "cutting_color": 1, "break_color": 4, "line_width": 0.3,
-    "qr_size_mm": 10, "qr_x_offset": 49, "qr_y_offset": 3,
+    "qr_size_mm": 11.5, "qr_x_offset": 49, "qr_y_offset": 3,
 }
 
 class HealthLabelGenerator:
